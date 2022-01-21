@@ -4,7 +4,13 @@
     <title>Jumia Clone</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+    <!-- Google font Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <!-- Bootstrap Framework -->
     <link
       href="assets/plugins/bootstrap/css/bootstrap.min.css"
@@ -21,7 +27,199 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <!-- Header -->
+    <header>
+      <!-- top ads -->
+      <div class="top-ads">
+        <div class="container">
+          <img src="assets/images/TopStrip_free-delivery_.gif" alt="" />
+        </div>
+      </div>
+      <!-- top ads end -->
+
+      <div class="top-service">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 sell">
+              <a href="#"><i class="fas fa-star"></i> Sell on Jumia</a>
+            </div>
+            <div class="col-md-9 d-flex other-services">
+              <a href="#">
+                <i class="fas fa-star"></i>
+                <span>Jumia</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-star"></i>
+                <span>Pay</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-star"></i>
+                <span>Party</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-star"></i>
+                <span>Primo</span>
+              </a>
+              <a href="#">
+                <i class="fas fa-star"></i>
+                <span>Logistics</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets/images/logo/jumia.jpg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex ms-auto">
+              <div class="input-group">
+                <span
+                  class="input-group-text fas fa-search"
+                  id="search-icon"
+                ></span>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search products, brands and categories"
+                  aria-describedby="search-icon"
+                />
+              </div>
+              <button class="btn" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="fas fa-user"></i>
+                  Account
+                </a>
+                <ul class="mz-sub-menu-96 pt-0 dropdown-menu">
+                  <li class="px-3 py-3">
+                    <a class="icon-left both sign-in dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="title"> Sign In </span>
+                      </div>
+                    </a>
+                  </li>
+                  <div class="menu-divider" bis_skin_checked="1"></div>
+                  <li class="">
+                    <a class="icon-left both dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="icon far fa-user"></span>
+                        <span class="title"> My Account </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="icon-left both dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="icon fas fa-store-alt"></span>
+                        <span class="title"> Orders </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a
+                      class="icon-left both dropdown-item"
+                      href="https://ebeanomarket.com/wishlists"
+                    >
+                      <div class="info" bis_skin_checked="1">
+                        <span class="icon far fa-heart"></span>
+                        <span class="title"> Saved Items </span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <i class="far fa-question-circle"></i>
+                  Help
+                </a>
+                <ul class="mz-sub-menu-96 dropdown-menu">
+                  <li class="">
+                    <a class="icon-left both dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="title">Help center </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="icon-left both dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="title">Place &amp; track orders </span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="icon-left both dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="title">Orders cancellation</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="icon-left both dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="title">Returns &amp; Refunds</span>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="">
+                    <a class="icon-left both dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="title">Payment</span>
+                      </div>
+                    </a>
+                  </li>
+                  <div class="menu-divider" bis_skin_checked="1"></div>
+                  <li class="px-3 py-3">
+                    <a class="icon-left both sign-in dropdown-item" href="#">
+                      <div class="info" bis_skin_checked="1">
+                        <span class="title"> Live Help </span>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-cart-plus"></i>
+                  Cart
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
 
     <!-- jquery -->
     <script src="assets/plugins/jquery/jquery.min.js"></script>
