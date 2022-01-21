@@ -284,7 +284,7 @@ header .top-service .other-services a {
 
 .product-container {
   border: none;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 .product-container .card-header {
@@ -352,4 +352,23 @@ header .top-service .other-services a {
 
 .product-container .collection-card {
   margin-bottom: 20px;
+}
+
+.middle-ads {
+  padding: 8px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.middle-ads a {
+  text-decoration: none;
+}
+
+.middle-ads a:hover {
+  transform: scaleX(1);
+}
+
+.middle-ads a img {
+  width: 100%;
+  border-radius: 4px;
 }
