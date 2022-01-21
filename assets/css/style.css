@@ -401,3 +401,67 @@ header .top-service .other-services a {
   text-align: center;
   margin-bottom: 0px;
 }
+
+footer {
+  overflow: hidden;
+  color: #fff;
+  font-size: 13px;
+  background-color: #323232;
+}
+
+footer .upper-footer {
+  background-color: #282828;
+  padding: 20px 0px;
+  color: #c7c7cd;
+}
+
+footer .upper-footer img {
+  width: 120px;
+  overflow: hidden;
+}
+
+footer .heading {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+footer form #search-icon {
+  background-color: #fff;
+  line-height: inherit;
+  border-right: none;
+  color: #ccc;
+}
+footer form .form-control {
+  border-left: none;
+}
+footer .btn {
+  margin-left: 10px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+footer form .btn:hover {
+  background-color: #e4811c;
+}
+
+footer .bottom-footer {
+  padding: 20px 0px;
+}
+
+footer .bottom-footer ul li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer .bottom-footer .socials li a {
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  color: #fff;
+  marg
+}
