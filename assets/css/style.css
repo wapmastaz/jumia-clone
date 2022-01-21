@@ -139,3 +139,145 @@ header .top-service .other-services a {
   font-size: 15px;
   padding: 9px 16px;
 }
+
+.main {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+/* side category */
+.hero_banner .side-category {
+  border: none;
+  height: 100% !important;
+}
+.hero_banner .side-category a {
+  border: none;
+  font-size: 14px;
+  padding: 0.6rem 1rem;
+}
+.hero_banner .side-category a:hover {
+  background-color: #fff;
+  color: #ff9900;
+  transition: 0.3s;
+}
+.hero_banner .side-category a i {
+  margin-right: 7px;
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+}
+/* swiper */
+.hero_banner .swiper-slide img {
+  width: 100%;
+  border-radius: 4px;
+}
+/* side banner */
+.side-banner {
+  overflow: hidden;
+}
+
+.side-banner a {
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 20px;
+}
+.side-banner img {
+  border-radius: 4px;
+}
+/* top deals */
+.top-deals {
+  padding: 1rem 0;
+}
+
+@media (max-width: 600px) {
+  .top-deals {
+    display: none;
+  }
+}
+
+.mobile_subcategory {
+  margin: 2rem 0;
+  background-color: #fff;
+}
+
+@media (min-width: 760px) {
+  .mobile_subcategory {
+    display: none;
+  }
+}
+
+.mobile_subcategory .col-3 {
+  /* padding-right: 5px;
+  padding-left: 5px; */
+}
+
+.top-deals a,
+.mobile_subcategory a,
+.our-services a {
+  display: flex;
+  justify-content: flex-start;
+  padding: 8px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 5px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.our-services a {
+  background-color: #f5f5f5;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .our-services a {
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    flex-direction: column;
+    padding: 8px 2px;
+  }
+}
+
+.mobile_subcategory a {
+  flex-direction: column;
+  padding: 8px 0px;
+}
+
+.mobile_subcategory a .icon_wrapper {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.top-deals a:hover,
+.mobile_subcategory a:hover,
+.our-services a:hover {
+  text-decoration: none;
+}
+
+.top-deals a .icon_wrapper,
+.our-services a .icon_wrapper {
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.top-deals a .icon_wrapper img,
+.mobile_subcategory a .icon_wrapper img,
+.our-services a .icon_wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.top-deals a span.deal-title,
+.our-services a span.deal-title {
+  font-weight: 500;
+  color: #010101;
+  padding-left: 10px;
+}
+
+.text-ellipsis-50 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
